@@ -1,18 +1,36 @@
-After Analysing the given dataset, verious insignts were found, which are useful for business, also, based on those insight, some recommendations are provides for future growth of the business.
+Various tools were used for profiling, blending and visualization of data, with the help of these tools. following steps were taken and following insights were achieved
+
+a. Analysis using MySQL:
+
+1. Modifying given table to add useful columns using alter statement and operators
+2. Find required data using conditions and orderby statements
+3. Ordering cities based on number of stores in that city
+4. Ranking Promo codes based on sales
+5. Finding which festival campaign performed better
+6. Finding top selling products from multiple tables using Joins and limit
+
 
 Insights :
 
-- Customers from Mumbai have highest average income and expenditure, suggesting it has higher cost of living.
-- The chart suggests higher spending in September and October, potentially indicating seasonal trends like back-to-school shopping or holiday season expenses.
--The largest chunk of spending goes towards bills, indicating a significant portion of income is dedicated to essential expenses like utilities, rent, or loan payments.
--Males spend more than females.
--Maximum customers are 25-34 year old male salaried IT employees.
--Net banking has maximum customer share, but most amount is spend using credit cards.
--Forecast shows credit card customers are going to increase.
+- ‘25% OFF’ promo type highly increased the sale of units, however, net profite is hishest with ‘500 cashback’ promo type
+- Sales during Diwali produced more profit, customers do more shoping during Diwali
+- 'Atliq_Home_Essential_8_Product_Combo' has the highest incremental revenue
 
-Recommendations :
 
--Introducing new Credit card in Mumbai, followed by Delhi NCR have the maximum chances of success due to the high cost of living.
--Festival season i.e. September and October is the best time to launch the new line of credit card.
--By giving cask backs and discounts on bill payments will make use of credit card more popular.
--Also, new line of credit card must be focused on Male salaried IT employees who are aged between 25-34, this can be done by offering discounts/points/cashbacks on male focused products, and an additionally survey can be conducted to find such domain specific products.
+b. Sales dashboard using PowerBI :
+
+- This dashboard answers the following questions
+- Top performing stores
+- Top performing products
+- Best promo types based on increased revenue and sale
+- Top performing Cities
+- Which campaign performed better
+- Category wise profit and contribution
+
+After finding these answers there are some recommendations to improve the business
+
+- Increase stocks during Diwali season, as sale of products exceed by a big margin
+- Appreciate effort of top performing stores and make action plan form stores with low performance
+- Open new stores in Chennai and Bengaluru seeing the large customer base
+- Conclude which promo type performed better and should continue with that (‘25% OFF’ in this case)
+- Products under ‘Combo 1’ brought maximum profit with 2nd highest sale, so keep more stock during next sale and perform R&D on ‘Grocery & Staples’ category, as even after highest sales, it brought loss to the business
